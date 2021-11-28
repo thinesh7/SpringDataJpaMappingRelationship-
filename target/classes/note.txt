@@ -1,0 +1,24 @@
+Hibernate: insert into customer (cust_details, cust_name) values (?, ?)
+Hibernate: insert into products (price, product_name, quantity, product_id) values (?, ?, ?, ?)
+Hibernate: insert into products (price, product_name, quantity, product_id) values (?, ?, ?, ?)
+Hibernate: update products set cp_fk=? where product_id=?
+Hibernate: update products set cp_fk=? where product_id=?
+
+{
+    "custName": "Thinesh",
+    "custDetails": "Details",
+    "products": [
+        {
+            "productId": 1001,
+            "productName": "Product-1",
+            "quantity": 5,
+            "price": 50.69
+        },
+        {
+            "productId": 1002,
+            "productName": "Product-2",
+            "quantity": 10,
+            "price": 90.37
+        }
+    ]
+}
